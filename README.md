@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate with others who are also Gophors and know the Gstreamer framework.
 - 📫 How to reach me on vk3dgtv@gmail.com
 - 😄 Pronouns: He/Him
-- ⚡ Did you know that H.264 is a cornerstone of modern broadcast TV, reducing bandwidth by over 50% compared to previous technologies? While H.266 offers even more compression, it's unlikely to hit free-to-air TV soon due to the high costs of implementation by broadcasters and TV manufacturers. Tech innovation at its best, but sometimes costs keep it just out of reach!
+- ⚡ Did you know that H.264 is a cornerstone of modern broadcast TV, reducing bandwidth by over 50% compared to previous technologies? While H.266 offers even more compression, it's unlikely to hit free-to-air TV soon due to the high costs of implementation by broadcasters and TV manufacturers. Another nugget of advice:-  You know FTA TV is well on the ways to a death spirl? The quality of FTA content more ads louder and biased news? Most of us have taken up streaming services. Myself are fond of YouTube, there is always people doing something worth watching.
 
 <!---
 TVforME/TVforME is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
