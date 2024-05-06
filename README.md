@@ -2,7 +2,7 @@
 
 🚀 **Revolutionise digital amateur television!** The DATV Repeater project is at the forefront of software inovation, leveraging the advances in GPU hardware, GStreamer framework to deliver a software dirived DATV Repeater!
 
-🌍 This project is not just about making the design configurable and extendable, its about connecting the ATV community across Australia. Inspired by the Voctomix project, the project takes a step further by integrating with Gstreamer's GPU decoding and encoding wrapped in Go ![Go-heart-balloon-32x40](https://go.dev/) 
+🌍 This project is not just about making the design configurable and extendable, its about connecting the ATV community across Australia. Inspired by the Voctomix project, the project takes a step further by integrating with Gstreamer's GPU decoding and encoding wrapped in Go ![Go-heart-balloon-32x40](https://github.com/TVforME/Repeater/assets/168706311/6d85af8a-82d8-49eb-ae11-fefb2bbc466b" https://go.dev/")
 for parallelism and speed.
 
 🛠️ The DATV Repeater serves to move the typical reeater design away from the interconnection of black-boxes connected together with interface glue (microcontrollers etc) and cbales. The software approach is specifically for the Geelong Amateur Radio Club DATV repeater VK3RGL located at Mount Anakie Victoria.
