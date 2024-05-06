@@ -11,7 +11,7 @@ for parallelism and speed.
 
 💡 Dive into our documentation to learn more about how the DATV Repeater is setting new standards in the amateur television landscape.
 
-[DATV Repeater Wiki](Wiki-Page-Title)
+[DATV Repeater Wiki](https://github.com/TVforME/Repeater/wiki)
 
 🆘 If your into GStreamer and GO or bash install scripts and up to helping out, please drop me a an email and introduce yourself.
 
