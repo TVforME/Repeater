@@ -15,7 +15,8 @@ The repeater site is located at Mount Anakie Victoria. Call sign **VK3RGL**
 💡 Dive into our documentation to learn more about how the DATV Repeater is setting new standards in the amateur television landscape.
 [DATV Repeater Wiki](https://github.com/TVforME/Repeater/wiki)
 
-🆘 If your into GStreamer and GO or bash install scripts and up to helping out, please drop me a an email and introduce yourself.
+🆘 If your into GStreamer and GO or bash install scripts and up to helping out, please drop me a an email and introduce yourself. 
+[VK3DG](mailto:vk3dgtv@gmail.com)
 
 🔗 Stay tuned for files to be added as parts are working! 
 
