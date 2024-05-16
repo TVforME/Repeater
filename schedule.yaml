@@ -1,0 +1,1023 @@
+schedule:
+- hour: 5
+  minute: 59
+  second: 58
+  type: Command
+  action: Awake
+  event: Repeater wake-up
+  eventdescription: Begin a new day Listening for DVB inputs
+- hour: 6
+  minute: 0
+  second: 0
+  type: Switch
+  action: Carousel
+  source: VK3RGL-Carousel
+  event: Repeater Carousel
+  eventdescription: Play the Repeater Carousel to show club events..
+- hour: 6
+  minute: 10
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "7"
+  event: Tower Camera Preset 7
+  eventdescription: Show the surrounding of Mt Anakie Preset 7
+- hour: 6
+  minute: 13
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "4"
+  event: Tower Camera Preset 4
+  eventdescription: Show the surrounding of Mt Anakie Preset 4
+- hour: 6
+  minute: 16
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "8"
+  event: Tower Camera Preset 8
+  eventdescription: Show the surrounding of Mt Anakie Preset 8
+- hour: 6
+  minute: 19
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "3"
+  event: Tower Camera Preset 3
+  eventdescription: Show the surrounding of Mt Anakie Preset 3
+- hour: 6
+  minute: 22
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "6"
+  event: Tower Camera Preset 6
+  eventdescription: Show the surrounding of Mt Anakie Preset 6
+- hour: 6
+  minute: 25
+  second: 0
+  type: Switch
+  action: Background
+  source: VK3RGL-1_Background
+  event: VK3RGL-1 Background  Loop
+  eventdescription: Showing VK3RGL Channel 1 Background in Loop
+- hour: 7
+  minute: 0
+  second: 0
+  type: Switch
+  action: Carousel
+  source: VK3RGL-Carousel
+  event: Repeater Carousel
+  eventdescription: Play the Repeater Carousel to show club events..
+- hour: 7
+  minute: 10
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "9"
+  event: Tower Camera Preset 9
+  eventdescription: Show the surrounding of Mt Anakie Preset 9
+- hour: 7
+  minute: 13
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "7"
+  event: Tower Camera Preset 7
+  eventdescription: Show the surrounding of Mt Anakie Preset 7
+- hour: 7
+  minute: 16
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "1"
+  event: Tower Camera Preset 1
+  eventdescription: Show the surrounding of Mt Anakie Preset 1
+- hour: 7
+  minute: 19
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "3"
+  event: Tower Camera Preset 3
+  eventdescription: Show the surrounding of Mt Anakie Preset 3
+- hour: 7
+  minute: 22
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "9"
+  event: Tower Camera Preset 9
+  eventdescription: Show the surrounding of Mt Anakie Preset 9
+- hour: 7
+  minute: 25
+  second: 0
+  type: Switch
+  action: Background
+  source: VK3RGL-1_Background
+  event: VK3RGL-1 Background  Loop
+  eventdescription: Showing VK3RGL Channel 1 Background in Loop
+- hour: 8
+  minute: 0
+  second: 0
+  type: Switch
+  action: Carousel
+  source: VK3RGL-Carousel
+  event: Repeater Carousel
+  eventdescription: Play the Repeater Carousel to show club events..
+- hour: 8
+  minute: 10
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "6"
+  event: Tower Camera Preset 6
+  eventdescription: Show the surrounding of Mt Anakie Preset 6
+- hour: 8
+  minute: 13
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "3"
+  event: Tower Camera Preset 3
+  eventdescription: Show the surrounding of Mt Anakie Preset 3
+- hour: 8
+  minute: 16
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "5"
+  event: Tower Camera Preset 5
+  eventdescription: Show the surrounding of Mt Anakie Preset 5
+- hour: 8
+  minute: 19
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "3"
+  event: Tower Camera Preset 3
+  eventdescription: Show the surrounding of Mt Anakie Preset 3
+- hour: 8
+  minute: 22
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "4"
+  event: Tower Camera Preset 4
+  eventdescription: Show the surrounding of Mt Anakie Preset 4
+- hour: 8
+  minute: 25
+  second: 0
+  type: Switch
+  action: Background
+  source: VK3RGL-1_Background
+  event: VK3RGL-1 Background  Loop
+  eventdescription: Showing VK3RGL Channel 1 Background in Loop
+- hour: 9
+  minute: 0
+  second: 0
+  type: Switch
+  action: Carousel
+  source: VK3RGL-Carousel
+  event: Repeater Carousel
+  eventdescription: Play the Repeater Carousel to show club events..
+- hour: 9
+  minute: 10
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "7"
+  event: Tower Camera Preset 7
+  eventdescription: Show the surrounding of Mt Anakie Preset 7
+- hour: 9
+  minute: 13
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "7"
+  event: Tower Camera Preset 7
+  eventdescription: Show the surrounding of Mt Anakie Preset 7
+- hour: 9
+  minute: 16
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "4"
+  event: Tower Camera Preset 4
+  eventdescription: Show the surrounding of Mt Anakie Preset 4
+- hour: 9
+  minute: 19
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "2"
+  event: Tower Camera Preset 2
+  eventdescription: Show the surrounding of Mt Anakie Preset 2
+- hour: 9
+  minute: 22
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "4"
+  event: Tower Camera Preset 4
+  eventdescription: Show the surrounding of Mt Anakie Preset 4
+- hour: 9
+  minute: 25
+  second: 0
+  type: Switch
+  action: Background
+  source: VK3RGL-1_Background
+  event: VK3RGL-1 Background  Loop
+  eventdescription: Showing VK3RGL Channel 1 Background in Loop
+- hour: 10
+  minute: 0
+  second: 0
+  type: Switch
+  action: Carousel
+  source: VK3RGL-Carousel
+  event: Repeater Carousel
+  eventdescription: Play the Repeater Carousel to show club events..
+- hour: 10
+  minute: 10
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "4"
+  event: Tower Camera Preset 4
+  eventdescription: Show the surrounding of Mt Anakie Preset 4
+- hour: 10
+  minute: 13
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "2"
+  event: Tower Camera Preset 2
+  eventdescription: Show the surrounding of Mt Anakie Preset 2
+- hour: 10
+  minute: 16
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "1"
+  event: Tower Camera Preset 1
+  eventdescription: Show the surrounding of Mt Anakie Preset 1
+- hour: 10
+  minute: 19
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "9"
+  event: Tower Camera Preset 9
+  eventdescription: Show the surrounding of Mt Anakie Preset 9
+- hour: 10
+  minute: 22
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "9"
+  event: Tower Camera Preset 9
+  eventdescription: Show the surrounding of Mt Anakie Preset 9
+- hour: 10
+  minute: 25
+  second: 0
+  type: Switch
+  action: Background
+  source: VK3RGL-1_Background
+  event: VK3RGL-1 Background  Loop
+  eventdescription: Showing VK3RGL Channel 1 Background in Loop
+- hour: 11
+  minute: 0
+  second: 0
+  type: Switch
+  action: Carousel
+  source: VK3RGL-Carousel
+  event: Repeater Carousel
+  eventdescription: Play the Repeater Carousel to show club events..
+- hour: 11
+  minute: 10
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "6"
+  event: Tower Camera Preset 6
+  eventdescription: Show the surrounding of Mt Anakie Preset 6
+- hour: 11
+  minute: 13
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "1"
+  event: Tower Camera Preset 1
+  eventdescription: Show the surrounding of Mt Anakie Preset 1
+- hour: 11
+  minute: 16
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "8"
+  event: Tower Camera Preset 8
+  eventdescription: Show the surrounding of Mt Anakie Preset 8
+- hour: 11
+  minute: 19
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "2"
+  event: Tower Camera Preset 2
+  eventdescription: Show the surrounding of Mt Anakie Preset 2
+- hour: 11
+  minute: 22
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "8"
+  event: Tower Camera Preset 8
+  eventdescription: Show the surrounding of Mt Anakie Preset 8
+- hour: 11
+  minute: 25
+  second: 0
+  type: Switch
+  action: Background
+  source: VK3RGL-1_Background
+  event: VK3RGL-1 Background  Loop
+  eventdescription: Showing VK3RGL Channel 1 Background in Loop
+- hour: 12
+  minute: 0
+  second: 0
+  type: Switch
+  action: Carousel
+  source: VK3RGL-Carousel
+  event: Repeater Carousel
+  eventdescription: Play the Repeater Carousel to show club events..
+- hour: 12
+  minute: 10
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "2"
+  event: Tower Camera Preset 2
+  eventdescription: Show the surrounding of Mt Anakie Preset 2
+- hour: 12
+  minute: 13
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "8"
+  event: Tower Camera Preset 8
+  eventdescription: Show the surrounding of Mt Anakie Preset 8
+- hour: 12
+  minute: 16
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "5"
+  event: Tower Camera Preset 5
+  eventdescription: Show the surrounding of Mt Anakie Preset 5
+- hour: 12
+  minute: 19
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "4"
+  event: Tower Camera Preset 4
+  eventdescription: Show the surrounding of Mt Anakie Preset 4
+- hour: 12
+  minute: 22
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "4"
+  event: Tower Camera Preset 4
+  eventdescription: Show the surrounding of Mt Anakie Preset 4
+- hour: 12
+  minute: 25
+  second: 0
+  type: Switch
+  action: Background
+  source: VK3RGL-1_Background
+  event: VK3RGL-1 Background  Loop
+  eventdescription: Showing VK3RGL Channel 1 Background in Loop
+- hour: 13
+  minute: 0
+  second: 0
+  type: Switch
+  action: Carousel
+  source: VK3RGL-Carousel
+  event: Repeater Carousel
+  eventdescription: Play the Repeater Carousel to show club events..
+- hour: 13
+  minute: 10
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "8"
+  event: Tower Camera Preset 8
+  eventdescription: Show the surrounding of Mt Anakie Preset 8
+- hour: 13
+  minute: 13
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "4"
+  event: Tower Camera Preset 4
+  eventdescription: Show the surrounding of Mt Anakie Preset 4
+- hour: 13
+  minute: 16
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "4"
+  event: Tower Camera Preset 4
+  eventdescription: Show the surrounding of Mt Anakie Preset 4
+- hour: 13
+  minute: 19
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "8"
+  event: Tower Camera Preset 8
+  eventdescription: Show the surrounding of Mt Anakie Preset 8
+- hour: 13
+  minute: 22
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "6"
+  event: Tower Camera Preset 6
+  eventdescription: Show the surrounding of Mt Anakie Preset 6
+- hour: 13
+  minute: 25
+  second: 0
+  type: Switch
+  action: Background
+  source: VK3RGL-1_Background
+  event: VK3RGL-1 Background  Loop
+  eventdescription: Showing VK3RGL Channel 1 Background in Loop
+- hour: 14
+  minute: 0
+  second: 0
+  type: Switch
+  action: Carousel
+  source: VK3RGL-Carousel
+  event: Repeater Carousel
+  eventdescription: Play the Repeater Carousel to show club events..
+- hour: 14
+  minute: 10
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "9"
+  event: Tower Camera Preset 9
+  eventdescription: Show the surrounding of Mt Anakie Preset 9
+- hour: 14
+  minute: 13
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "9"
+  event: Tower Camera Preset 9
+  eventdescription: Show the surrounding of Mt Anakie Preset 9
+- hour: 14
+  minute: 16
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "4"
+  event: Tower Camera Preset 4
+  eventdescription: Show the surrounding of Mt Anakie Preset 4
+- hour: 14
+  minute: 19
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "4"
+  event: Tower Camera Preset 4
+  eventdescription: Show the surrounding of Mt Anakie Preset 4
+- hour: 14
+  minute: 22
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "2"
+  event: Tower Camera Preset 2
+  eventdescription: Show the surrounding of Mt Anakie Preset 2
+- hour: 14
+  minute: 25
+  second: 0
+  type: Switch
+  action: Background
+  source: VK3RGL-1_Background
+  event: VK3RGL-1 Background  Loop
+  eventdescription: Showing VK3RGL Channel 1 Background in Loop
+- hour: 15
+  minute: 0
+  second: 0
+  type: Switch
+  action: Carousel
+  source: VK3RGL-Carousel
+  event: Repeater Carousel
+  eventdescription: Play the Repeater Carousel to show club events..
+- hour: 15
+  minute: 10
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "3"
+  event: Tower Camera Preset 3
+  eventdescription: Show the surrounding of Mt Anakie Preset 3
+- hour: 15
+  minute: 13
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "8"
+  event: Tower Camera Preset 8
+  eventdescription: Show the surrounding of Mt Anakie Preset 8
+- hour: 15
+  minute: 16
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "2"
+  event: Tower Camera Preset 2
+  eventdescription: Show the surrounding of Mt Anakie Preset 2
+- hour: 15
+  minute: 19
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "8"
+  event: Tower Camera Preset 8
+  eventdescription: Show the surrounding of Mt Anakie Preset 8
+- hour: 15
+  minute: 22
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "1"
+  event: Tower Camera Preset 1
+  eventdescription: Show the surrounding of Mt Anakie Preset 1
+- hour: 15
+  minute: 25
+  second: 0
+  type: Switch
+  action: Background
+  source: VK3RGL-1_Background
+  event: VK3RGL-1 Background  Loop
+  eventdescription: Showing VK3RGL Channel 1 Background in Loop
+- hour: 16
+  minute: 0
+  second: 0
+  type: Switch
+  action: Carousel
+  source: VK3RGL-Carousel
+  event: Repeater Carousel
+  eventdescription: Play the Repeater Carousel to show club events..
+- hour: 16
+  minute: 10
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "2"
+  event: Tower Camera Preset 2
+  eventdescription: Show the surrounding of Mt Anakie Preset 2
+- hour: 16
+  minute: 13
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "1"
+  event: Tower Camera Preset 1
+  eventdescription: Show the surrounding of Mt Anakie Preset 1
+- hour: 16
+  minute: 16
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "7"
+  event: Tower Camera Preset 7
+  eventdescription: Show the surrounding of Mt Anakie Preset 7
+- hour: 16
+  minute: 19
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "1"
+  event: Tower Camera Preset 1
+  eventdescription: Show the surrounding of Mt Anakie Preset 1
+- hour: 16
+  minute: 22
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "8"
+  event: Tower Camera Preset 8
+  eventdescription: Show the surrounding of Mt Anakie Preset 8
+- hour: 16
+  minute: 25
+  second: 0
+  type: Switch
+  action: Background
+  source: VK3RGL-1_Background
+  event: VK3RGL-1 Background  Loop
+  eventdescription: Showing VK3RGL Channel 1 Background in Loop
+- hour: 17
+  minute: 0
+  second: 0
+  type: Switch
+  action: Carousel
+  source: VK3RGL-Carousel
+  event: Repeater Carousel
+  eventdescription: Play the Repeater Carousel to show club events..
+- hour: 17
+  minute: 10
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "3"
+  event: Tower Camera Preset 3
+  eventdescription: Show the surrounding of Mt Anakie Preset 3
+- hour: 17
+  minute: 13
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "6"
+  event: Tower Camera Preset 6
+  eventdescription: Show the surrounding of Mt Anakie Preset 6
+- hour: 17
+  minute: 16
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "2"
+  event: Tower Camera Preset 2
+  eventdescription: Show the surrounding of Mt Anakie Preset 2
+- hour: 17
+  minute: 19
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "2"
+  event: Tower Camera Preset 2
+  eventdescription: Show the surrounding of Mt Anakie Preset 2
+- hour: 17
+  minute: 22
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "4"
+  event: Tower Camera Preset 4
+  eventdescription: Show the surrounding of Mt Anakie Preset 4
+- hour: 17
+  minute: 25
+  second: 0
+  type: Switch
+  action: Background
+  source: VK3RGL-1_Background
+  event: VK3RGL-1 Background  Loop
+  eventdescription: Showing VK3RGL Channel 1 Background in Loop
+- hour: 18
+  minute: 0
+  second: 0
+  type: Switch
+  action: Carousel
+  source: VK3RGL-Carousel
+  event: Repeater Carousel
+  eventdescription: Play the Repeater Carousel to show club events..
+- hour: 18
+  minute: 10
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "7"
+  event: Tower Camera Preset 7
+  eventdescription: Show the surrounding of Mt Anakie Preset 7
+- hour: 18
+  minute: 13
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "7"
+  event: Tower Camera Preset 7
+  eventdescription: Show the surrounding of Mt Anakie Preset 7
+- hour: 18
+  minute: 16
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "3"
+  event: Tower Camera Preset 3
+  eventdescription: Show the surrounding of Mt Anakie Preset 3
+- hour: 18
+  minute: 19
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "9"
+  event: Tower Camera Preset 9
+  eventdescription: Show the surrounding of Mt Anakie Preset 9
+- hour: 18
+  minute: 22
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "2"
+  event: Tower Camera Preset 2
+  eventdescription: Show the surrounding of Mt Anakie Preset 2
+- hour: 18
+  minute: 25
+  second: 0
+  type: Switch
+  action: Background
+  source: VK3RGL-1_Background
+  event: VK3RGL-1 Background  Loop
+  eventdescription: Showing VK3RGL Channel 1 Background in Loop
+- hour: 19
+  minute: 0
+  second: 0
+  type: Switch
+  action: Carousel
+  source: VK3RGL-Carousel
+  event: Repeater Carousel
+  eventdescription: Play the Repeater Carousel to show club events..
+- hour: 19
+  minute: 10
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "8"
+  event: Tower Camera Preset 8
+  eventdescription: Show the surrounding of Mt Anakie Preset 8
+- hour: 19
+  minute: 13
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "9"
+  event: Tower Camera Preset 9
+  eventdescription: Show the surrounding of Mt Anakie Preset 9
+- hour: 19
+  minute: 16
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "1"
+  event: Tower Camera Preset 1
+  eventdescription: Show the surrounding of Mt Anakie Preset 1
+- hour: 19
+  minute: 19
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "6"
+  event: Tower Camera Preset 6
+  eventdescription: Show the surrounding of Mt Anakie Preset 6
+- hour: 19
+  minute: 22
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "2"
+  event: Tower Camera Preset 2
+  eventdescription: Show the surrounding of Mt Anakie Preset 2
+- hour: 19
+  minute: 25
+  second: 0
+  type: Switch
+  action: Background
+  source: VK3RGL-1_Background
+  event: VK3RGL-1 Background  Loop
+  eventdescription: Showing VK3RGL Channel 1 Background in Loop
+- hour: 20
+  minute: 0
+  second: 0
+  type: Switch
+  action: Carousel
+  source: VK3RGL-Carousel
+  event: Repeater Carousel
+  eventdescription: Play the Repeater Carousel to show club events..
+- hour: 20
+  minute: 10
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "1"
+  event: Tower Camera Preset 1
+  eventdescription: Show the surrounding of Mt Anakie Preset 1
+- hour: 20
+  minute: 13
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "7"
+  event: Tower Camera Preset 7
+  eventdescription: Show the surrounding of Mt Anakie Preset 7
+- hour: 20
+  minute: 16
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "4"
+  event: Tower Camera Preset 4
+  eventdescription: Show the surrounding of Mt Anakie Preset 4
+- hour: 20
+  minute: 19
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "8"
+  event: Tower Camera Preset 8
+  eventdescription: Show the surrounding of Mt Anakie Preset 8
+- hour: 20
+  minute: 22
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "9"
+  event: Tower Camera Preset 9
+  eventdescription: Show the surrounding of Mt Anakie Preset 9
+- hour: 20
+  minute: 25
+  second: 0
+  type: Switch
+  action: Background
+  source: VK3RGL-1_Background
+  event: VK3RGL-1 Background  Loop
+  eventdescription: Showing VK3RGL Channel 1 Background in Loop
+- hour: 21
+  minute: 0
+  second: 0
+  type: Switch
+  action: Carousel
+  source: VK3RGL-Carousel
+  event: Repeater Carousel
+  eventdescription: Play the Repeater Carousel to show club events..
+- hour: 21
+  minute: 10
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "1"
+  event: Tower Camera Preset 1
+  eventdescription: Show the surrounding of Mt Anakie Preset 1
+- hour: 21
+  minute: 13
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "2"
+  event: Tower Camera Preset 2
+  eventdescription: Show the surrounding of Mt Anakie Preset 2
+- hour: 21
+  minute: 16
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "9"
+  event: Tower Camera Preset 9
+  eventdescription: Show the surrounding of Mt Anakie Preset 9
+- hour: 21
+  minute: 19
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "7"
+  event: Tower Camera Preset 7
+  eventdescription: Show the surrounding of Mt Anakie Preset 7
+- hour: 21
+  minute: 22
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "3"
+  event: Tower Camera Preset 3
+  eventdescription: Show the surrounding of Mt Anakie Preset 3
+- hour: 21
+  minute: 25
+  second: 0
+  type: Switch
+  action: Background
+  source: VK3RGL-1_Background
+  event: VK3RGL-1 Background  Loop
+  eventdescription: Showing VK3RGL Channel 1 Background in Loop
+- hour: 22
+  minute: 0
+  second: 0
+  type: Switch
+  action: Carousel
+  source: VK3RGL-Carousel
+  event: Repeater Carousel
+  eventdescription: Play the Repeater Carousel to show club events..
+- hour: 22
+  minute: 10
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "1"
+  event: Tower Camera Preset 1
+  eventdescription: Show the surrounding of Mt Anakie Preset 1
+- hour: 22
+  minute: 13
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "3"
+  event: Tower Camera Preset 3
+  eventdescription: Show the surrounding of Mt Anakie Preset 3
+- hour: 22
+  minute: 16
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "7"
+  event: Tower Camera Preset 7
+  eventdescription: Show the surrounding of Mt Anakie Preset 7
+- hour: 22
+  minute: 19
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "7"
+  event: Tower Camera Preset 7
+  eventdescription: Show the surrounding of Mt Anakie Preset 7
+- hour: 22
+  minute: 22
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "1"
+  event: Tower Camera Preset 1
+  eventdescription: Show the surrounding of Mt Anakie Preset 1
+- hour: 22
+  minute: 25
+  second: 0
+  type: Switch
+  action: Background
+  source: VK3RGL-1_Background
+  event: VK3RGL-1 Background  Loop
+  eventdescription: Showing VK3RGL Channel 1 Background in Loop
+- hour: 23
+  minute: 0
+  second: 0
+  type: Switch
+  action: Carousel
+  source: VK3RGL-Carousel
+  event: Repeater Carousel
+  eventdescription: Play the Repeater Carousel to show club events..
+- hour: 23
+  minute: 10
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "5"
+  event: Tower Camera Preset 5
+  eventdescription: Show the surrounding of Mt Anakie Preset 5
+- hour: 23
+  minute: 13
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "1"
+  event: Tower Camera Preset 1
+  eventdescription: Show the surrounding of Mt Anakie Preset 1
+- hour: 23
+  minute: 16
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "4"
+  event: Tower Camera Preset 4
+  eventdescription: Show the surrounding of Mt Anakie Preset 4
+- hour: 23
+  minute: 19
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "1"
+  event: Tower Camera Preset 1
+  eventdescription: Show the surrounding of Mt Anakie Preset 1
+- hour: 23
+  minute: 22
+  second: 0
+  type: Switch
+  action: TowerCam
+  preset: "2"
+  event: Tower Camera Preset 2
+  eventdescription: Show the surrounding of Mt Anakie Preset 2
+- hour: 23
+  minute: 25
+  second: 0
+  type: Switch
+  action: Background
+  source: VK3RGL-1_Background
+  event: VK3RGL-1 Background  Loop
+  eventdescription: Showing VK3RGL Channel 1 Background in Loop
+- hour: 0
+  minute: 0
+  second: 10
+  type: Command
+  action: Sleep
+  event: Repeater time to Sleep
+  eventdescription: Repeater's time to go to sleep Yawn Yawn, ZzzzzzZzzzzZzzz
