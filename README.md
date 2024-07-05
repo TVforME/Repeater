@@ -10,13 +10,9 @@ The DATV Repeater project is at the forefront of software innovation, leveraging
 
 🌍 This project is not just about making the design flexible and extendable; It was inspired from the [Voctomix](https://github.com/voc/voctomix) project, a is a video mixing software, written in python and the Gstreamer framework. I have adapted to take full advantage of using NVIDIA h246 for GPU decoding and encoding using [NVIDIA Tesla P4](https://images.nvidia.com/content/pdf/tesla/184457-Tesla-P4-Datasheet-NV-Final-Letter-Web.pdf) PCIe card/s.  
 
-DATV repeater is coded in GO! to leverage concurrency and parallelism and speed. I orginally developed the functionallty in Python 3 however, soon relised limitations as my designed became more complex making for a decision to look for a programming lanuage change.  
+DATV repeater is programmed in GO! <img src="assets/icons/go.ico" alt="icon" width="30" height="25"> to leverage concurrency and parallelism and speed. I orginally developed the functionallty in Python 3 however, soon relised limitations once the code base become complex making for a decision to give GO! and go. 
 
-Do I use  <img src="assets/icons/rust.ico" alt="icon" width="25" height="25">  or migrate to  <img src="assets/icons/c-plusplus.ico" alt="icon" width="25" height="25"> or do I learn  <img src="assets/icons/go.ico" alt="icon" width="30" height="25">
-
-Out of the 3, I found the balance with GO! 
-
-## Let's GO!
+## Let's GO! <img src="assets/icons/go.ico" alt="icon" width="30" height="25">
 - **GO is built for concurrency. Parallelism out-of-the-box:**  GO is design to run functions is parallel GO's way of threading using goroutines.
 - **NO Object Orientated Programming:** I'm not a fan of OOP Classes and overrides all that jazz.  I've come from C pointers and structures, GO uses old school C structure, interfaces and can handle "strings" properly.
 - **Easy to use and great support:** GO is a modern programming laugauge. it's easy and there is plenty of support of forums and Youtube how to's..
