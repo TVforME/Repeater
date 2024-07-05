@@ -2,7 +2,11 @@
 
 🚀 **Revolutionise digital amateur television!** 
 
-The DATV Repeater project is at the forefront of software inovation, leveraging the advances in GPU hardware to deliver a software dirived DATV Repeater!
+The DATV Repeater project is at the forefront of software inovation, leveraging the advances in GPU hardware to deliver a software derived DATV Repeater!
+
+Repeater Overview
+
+![Overview](https://github.com/TVforME/Repeater/blob/main/assets/images/Repeater-Overview.png)
 
 🌍 This project is not just about making the design configurable and extendable, its about connecting the ATV community across Australia. Inspired by the Voctomix project, the project takes a step further by integrating with Gstreamer's GPU decoding and encoding wrapped in 
 Golang [![Go-heart-balloon-32x40](https://github.com/TVforME/Repeater/assets/168706311/6d85af8a-82d8-49eb-ae11-fefb2bbc466b)](https://go.dev/ "Visit the GO website") for parallelism and speed.
