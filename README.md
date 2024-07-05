@@ -8,11 +8,11 @@ The DATV Repeater project is at the forefront of software innovation, leveraging
 
 ![Overview](https://github.com/TVforME/Repeater/blob/main/assets/images/Repeater-Overview.png)
 
-🌍 This project is not just about making the design flexible and extendable; It was inspired from the ![Voctomix](https://github.com/voc/voctomix) project, a is a video mixing software, written in python and the Gstreamer framework. I have adapted to take full advantage of using NVIDIA h246 for GPU decoding and encoding using ![NVIDIA Tesla P4]( https://images.nvidia.com/content/pdf/tesla/184457-Tesla-P4-Datasheet-NV-Final-Letter-Web.pdf) PCIe card/s.  
+🌍 This project is not just about making the design flexible and extendable; It was inspired from the ![Voctomix](https://github.com/voc/voctomix) project, a is a video mixing software, written in python and the Gstreamer framework. I have adapted to take full advantage of using NVIDIA h246 for GPU decoding and encoding using ![NVIDIA Tesla P4](https://images.nvidia.com/content/pdf/tesla/184457-Tesla-P4-Datasheet-NV-Final-Letter-Web.pdf) PCIe card/s.  
 
 DATV repeater is coded in GO! to leverage concurrency and parallelism and speed. I orginally developed the functionallty in Python 3 however, soon relised limitations as my designed became more complex making for a decision to look for a programming lanuage change.  
 
-Do I use ![Rust]((https://github.com/TVforME/Repeater/blob/main/assets/icons/rust.svg)<!-- HTML for scaling the SVG --><img src="images/logo.svg" alt="Logo" width="200" height="200">   or migrate to C++ ?? or do I learn GO! 
+Do I use [Rust]((https://github.com/TVforME/Repeater/blob/main/assets/icons/rust.svg)<img src="[https://github.com/TVforME/Repeater/blob/main/assets/icons/rust.svg]" alt="Rust" width="100" height="100">   or migrate to C++ ?? or do I learn GO! 
 
 Out of the 3, I found the balance with GO! 
 
