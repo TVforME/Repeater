@@ -9,11 +9,14 @@ The DATV Repeater project is at the forefront of software innovation, leveraging
 ![Overview](https://github.com/TVforME/Repeater/blob/main/assets/images/Repeater-Overview.png)
 
 🌍 This project is not just about making the design flexible and extendable; It was inspired by the Voctomix project, the project takes a step further by integrating with Gstreamer pipelines's with the ability for full GPU decoding and encoding, DATV repeater is coded in Go to leverage Go's parallelism and speed. The proptype was developed in Python3 however, the design become far more complex as modules where added making my decision to look for a way to circumvent the complexities with threading.
-It was inevitiable for the code to be compiled.  Was it Go, Rust and C++ ??  Out of the 3, I chose Go [![Go-heart-balloon-32x40](https://github.com/TVforME/Repeater/assets/168706311/6d85af8a-82d8-49eb-ae11-fefb2bbc466b)](https://go.dev/ "Visit the GO website") for the reasons of:-
+It was inevitiable for a lanuage change.  Do I use Rust go with C++ ?? or GO! 
 
-- **Parallelism out of the box:**  Go is design to run function is parallel Go's way of threading
+Out of the 3, I found the balance with Go. 
+
+My reasons are:-
+- **Go is built for concurrency. Parallelism out-of-the-box:**  Go is design to run functions is parallel Go's way of threading using goroutines.
 - **NO Object Orientated Programming:** I'm not a fan of OOP Classes and overrides all that jazz.  I've come from C pointers and structures, Go is bases on old school C structure, interfaces and can handle "strings" properly.
-- **Easy to use and gereat support:** Go is a modern programming laugauge. it's easy and there is plenty of support of forums and Youtube how to's..
+- **Easy to use and great support:** Go is a modern programming laugauge. it's easy and there is plenty of support of forums and Youtube how to's..
 - **Compiles to ONE executable:**  That's right, ONE executable. No frameworks, or addition lanuage dependencies.  GStreamer and few other libraries are requires for repeater to operate however, this is a given regardless of language used.
 - **Statically Typed lanuage:**  Hard to get it wrong.. Go's intuitive compiler lets you know before compilation your if your passing a int over a string. 
 
