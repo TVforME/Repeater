@@ -12,7 +12,7 @@ The DATV Repeater project is at the forefront of software innovation, leveraging
 
 DATV repeater is coded in GO! to leverage concurrency and parallelism and speed. I orginally developed the functionallty in Python 3 however, soon relised limitations as my designed became more complex making for a decision to look for a programming lanuage change.  
 
-Do I use Rust <img src="assets/icons/rust.ico" alt="icon" width="25" height="25">  or migrate to C++ <img src="assets/icons/c-plusplus.ico" alt="icon" width="25" height="25"> or do I learn GO! <img src="assets/icons/go.ico" alt="icon" width="25" height="25">
+Do I use  <img src="assets/icons/rust.ico" alt="icon" width="25" height="25">  or migrate to  <img src="assets/icons/c-plusplus.ico" alt="icon" width="25" height="25"> or do I learn  <img src="assets/icons/go.ico" alt="icon" width="30" height="25">
 
 Out of the 3, I found the balance with GO! 
 
