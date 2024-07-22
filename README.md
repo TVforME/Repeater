@@ -8,9 +8,9 @@ The DATV Repeater project is at the forefront of software innovation, leveraging
 
 ![Overview](https://github.com/TVforME/Repeater/blob/main/assets/images/Repeater-Overview.png)
 
-🌍 This project is not just about making the design flexible and extendable; It was inspired from the [Voctomix](https://github.com/voc/voctomix) project, a is a video mixing software, written in python and the Gstreamer framework. I have adapted to take full advantage of using NVIDIA h246 for GPU decoding and encoding using [NVIDIA Tesla P4](https://images.nvidia.com/content/pdf/tesla/184457-Tesla-P4-Datasheet-NV-Final-Letter-Web.pdf) PCIe card/s.  
+🌍 This project is not just about making the design flexible and extendable; It was inspired from  BBC [Brave][(https://github.com/bbc/brave) and [Voctomix](https://github.com/voc/voctomix) projects, both written in Python with the Gstreamer framework. I have adapted to take full advantage of newer GPU H264 hardware decoding and encoding using [NVIDIA Tesla P4](https://images.nvidia.com/content/pdf/tesla/184457-Tesla-P4-Datasheet-NV-Final-Letter-Web.pdf) PCIe card/s.  
 
-DATV repeater is programmed in GO! <img src="assets/icons/go.ico" alt="icon" width="30" height="25"> to leverage concurrency and parallelism and speed. I orginally developed the functionallty in Python 3 however, soon relised my to multitask async and other packages needed to be added making the structure more complex. After research and a bit of fiddling I decided to migrate to GO! 
+I've opted to build DATV repeater in GO! <img src="assets/icons/go.ico" alt="icon" width="30" height="25"> to leverage concurrency and parallelism and speed. I orginally developed with Python 3 however, soon relised I was going in too deep and began using asyncio and GLib and other packages making the code base complex. I'm new to golang and I decided to give it a shot to learn and see what I can pull together.
 
 ## Let's GO! <img src="assets/icons/go.ico" alt="icon" width="30" height="25">
 - **GO is built for concurrency. Parallelism out-of-the-box:**  GO is design to run functions is parallel GO's way of threading using goroutines.
