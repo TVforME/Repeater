@@ -8,7 +8,10 @@ The DATV Repeater project is at the forefront of software innovation, leveraging
 
 ![Overview](https://github.com/TVforME/Repeater/blob/main/assets/images/Repeater-Overview.png)
 
-🌍 This project is not just about making the design flexible and extendable; It was inspired from  BBC [Brave][(https://github.com/bbc/brave) and [Voctomix](https://github.com/voc/voctomix) projects, both written in Python with the Gstreamer framework. I have adapted to take full advantage of newer GPU H264 hardware decoding and encoding using [NVIDIA Tesla P4](https://images.nvidia.com/content/pdf/tesla/184457-Tesla-P4-Datasheet-NV-Final-Letter-Web.pdf) PCIe card/s.  
+🌍 This project is not just about making the design flexible and extendable; It was inspired from  BBC [Brave](https://github.com/bbc/brave) and [Voctomix](https://github.com/voc/voctomix) projects, both written in Python with the Gstreamer framework. I have adapted to take full advantage of newer GPU H264 hardware decoding and encoding using [NVIDIA Tesla P4](https://images.nvidia.com/content/pdf/tesla/184457-Tesla-P4-Datasheet-NV-Final-Letter-Web.pdf) PCIe card/s in my design. 
+
+I initially wrote code to both windows and linux however, dropped windows over linux for driver support and issues with gstreamer shmsrc and shmsink and also interpipe not compatable on windows. Linux is a far more robust OS for 24/7 operation.
+Please don't get into a debate on OS.. I've programmed on both and I personally find Linux flaovour suited to my understanding and getting code to work. Windows has it advantages, however, it's never played up well compared to Linux both Ubuntu, Debian, Raspberry Pi and recently CoreLinux
 
 I've opted to build DATV repeater in GO! <img src="assets/icons/go.ico" alt="icon" width="30" height="25"> to leverage concurrency and parallelism and speed. I orginally developed with Python 3 however, soon relised I was going in too deep and began using asyncio and GLib and other packages making the code base complex. I'm new to golang and I decided to give it a shot to learn and see what I can pull together.
 
